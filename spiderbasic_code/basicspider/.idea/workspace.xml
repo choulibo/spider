@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef4e867c-2f81-4249-8059-86a43f66e870" name="Default Changelist" comment="" />
+    <list default="true" id="ef4e867c-2f81-4249-8059-86a43f66e870" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day05/.idea/day05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/01_try_selenium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/02_try_PhantomJS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/03_login_douban.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/04_douyu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/05_qq_mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/06_login_douban.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/07_netease_cloud_music.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/yundama.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gsh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/basicspider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basicspider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/x.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/x.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spiderbasic笔记/day05.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../spiderbasic笔记/day05.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +31,14 @@
     <SUITE FILE_PATH="coverage/basicspider$01_renren_login.coverage" NAME="01_renren_login Coverage Results" MODIFIED="1539776032222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
     <SUITE FILE_PATH="coverage/basicspider$04_try_json.coverage" NAME="04_try_json Coverage Results" MODIFIED="1539793155337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
     <SUITE FILE_PATH="coverage/basicspider$02_renren_login.coverage" NAME="02_renren_login Coverage Results" MODIFIED="1539782158251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+    <SUITE FILE_PATH="coverage/basicspider$02_try_PhantomJS.coverage" NAME="02_try_PhantomJS Coverage Results" MODIFIED="1540123502037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/basicspider$04_douyu.coverage" NAME="04_douyu Coverage Results" MODIFIED="1540142010830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/basicspider$06_login_douban.coverage" NAME="06_login_douban Coverage Results" MODIFIED="1540123474737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/basicspider$03_login_douban.coverage" NAME="03_login_douban Coverage Results" MODIFIED="1540124242336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/basicspider$03_try_12306.coverage" NAME="03_try_12306 Coverage Results" MODIFIED="1539783144124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+    <SUITE FILE_PATH="coverage/basicspider$07_netease_cloud_music.coverage" NAME="07_netease_cloud_music Coverage Results" MODIFIED="1540176050694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/basicspider$01_try_selenium.coverage" NAME="01_try_selenium Coverage Results" MODIFIED="1540090909715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/basicspider$05_qq_mail.coverage" NAME="05_qq_mail Coverage Results" MODIFIED="1540168818807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/basicspider$05_baidufanyi.coverage" NAME="05_baidufanyi Coverage Results" MODIFIED="1539793402953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -52,28 +78,45 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1938241537">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="1" />
+          <entry key="log" value="1" />
+          <entry key="png" value="5" />
+          <entry key="py" value="50" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="5" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="50" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2865" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2865" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day03/06_36kr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day03/07_gevent_pool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,6 +124,14 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>login_frame</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,6 +146,18 @@
         <option value="$PROJECT_DIR$/day03/04_try_json.py" />
         <option value="$PROJECT_DIR$/day03/05_baidufanyi.py" />
         <option value="$PROJECT_DIR$/day03/06_36kr.py" />
+        <option value="$PROJECT_DIR$/day06/01_selenium.py" />
+        <option value="$PROJECT_DIR$/day06/yundama.py" />
+        <option value="$PROJECT_DIR$/day05/x.py" />
+        <option value="$PROJECT_DIR$/day05/05_qiubai_multiprocessing.py" />
+        <option value="$PROJECT_DIR$/gsh.py" />
+        <option value="$PROJECT_DIR$/day06/02_try_PhantomJS.py" />
+        <option value="$PROJECT_DIR$/day06/01_try_selenium.py" />
+        <option value="$PROJECT_DIR$/day06/04_douyu.py" />
+        <option value="$PROJECT_DIR$/day06/03_login_douban.py" />
+        <option value="$PROJECT_DIR$/day06/05_qq_mail.py" />
+        <option value="$PROJECT_DIR$/day06/06_login_douban.py" />
+        <option value="$PROJECT_DIR$/day06/07_netease_cloud_music.py" />
       </list>
     </option>
   </component>
@@ -109,11 +172,11 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="561" />
-    <option name="y" value="-4" />
-    <option name="width" value="807" />
-    <option name="height" value="772" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="631" />
+    <option name="y" value="21" />
+    <option name="width" value="744" />
+    <option name="height" value="747" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -129,12 +192,12 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,10 +209,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -171,8 +236,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.05_baidufanyi">
-    <configuration name="01_renren_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.07_netease_cloud_music">
+    <configuration name="02_try_PhantomJS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicspider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,12 +245,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day03/01_renren_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/02_try_PhantomJS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +259,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_renren_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="03_login_douban" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicspider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,12 +267,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day03/02_renren_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/03_login_douban.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +281,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_try_12306" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="04_douyu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicspider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,12 +289,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day03/03_try_12306.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/04_douyu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,7 +303,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_try_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="05_qq_mail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicspider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,12 +311,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day03/04_try_json.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/05_qq_mail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,7 +325,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05_baidufanyi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="07_netease_cloud_music" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicspider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,13 +333,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day03/05_baidufanyi.py" />
-      <option name="PARAMETERS" value="runserver" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/07_netease_cloud_music.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -283,19 +348,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.01_renren_login" />
-      <item itemvalue="Python.02_renren_login" />
-      <item itemvalue="Python.03_try_12306" />
-      <item itemvalue="Python.04_try_json" />
-      <item itemvalue="Python.05_baidufanyi" />
+      <item itemvalue="Python.02_try_PhantomJS" />
+      <item itemvalue="Python.03_login_douban" />
+      <item itemvalue="Python.04_douyu" />
+      <item itemvalue="Python.05_qq_mail" />
+      <item itemvalue="Python.07_netease_cloud_music" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.05_baidufanyi" />
-        <item itemvalue="Python.04_try_json" />
-        <item itemvalue="Python.03_try_12306" />
-        <item itemvalue="Python.02_renren_login" />
-        <item itemvalue="Python.01_renren_login" />
+        <item itemvalue="Python.07_netease_cloud_music" />
+        <item itemvalue="Python.05_qq_mail" />
+        <item itemvalue="Python.04_douyu" />
+        <item itemvalue="Python.03_login_douban" />
+        <item itemvalue="Python.02_try_PhantomJS" />
       </list>
     </recent_temporary>
   </component>
@@ -313,21 +378,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="-4" width="1332" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="631" y="21" width="744" height="747" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24705882" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33618233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4079365" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5968254" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -336,9 +400,33 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Redis Servers" order="4" />
+      <window_info anchor="right" id="Redis Servers" order="4" weight="0.32946146" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33863965" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34285715" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Redis Servers" order="4" weight="0.32946146" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -418,17 +506,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day03/05_baidufanyi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/01_selenium.py" />
     <entry file="file://$PROJECT_DIR$/day03/06_36kr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -436,6 +518,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/common/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/yundama.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="e#99#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/06_qiubai_gevent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/x.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day04/03_try_xml02_to_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/05_baidufanyi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/01_tieba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day04/03_try_xml03_to_group.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/03_qiubai_threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/02_qiubai.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/04_qiubai_multiprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/05_qiubai_multiprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#101#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gsh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/02_try_PhantomJS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/01_try_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/baidu1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/baidu.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/douyu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret column="234" selection-start-column="234" selection-end-column="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/03_login_douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding>
+            <element signature="e#108#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/06_login_douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/05_qq_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <element signature="e#123#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/04_douyu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="e#100#111#0" expanded="true" />
+            <marker date="1540142000934" expanded="true" signature="159:163" ph="..." />
+            <marker date="1540142000934" expanded="true" signature="1239:1384" ph="..." />
+            <marker date="1540142000934" expanded="true" signature="1398:1407" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/07_netease_cloud_music.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#114#129#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
