@@ -252,7 +252,7 @@ frame是html中常用的一种技术，即一个页面中嵌套了另一个网�
 
   - 参数query:查询条件
   - 参数update:更新操作符
-  - 参数multi:可选， 默认是false，表示只更新找到的第⼀条记录， 值为true表示把满⾜条件的⽂档全部更新
+  - 参数multi:可选， 默认是false，表示只更新找到的第⼀条记录， 值为true表示把满⾜条件的⽂档全部更新,**multi 只对$set有效**
 
   ```python
   db.col_name.update({条件},{name:1})   # 会把满足条件的数据的第一条更新为{name:1},其他的字段会删除
