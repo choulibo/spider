@@ -166,13 +166,36 @@
   db.stu.aggregate(
        {$project:{_id:0,name:1,age:1}}
        )
+  
+  // 查询男女人数,输出人数
+  db.stu.aggregate(
+       {$group:{_id:"$gender",counter:{$sum:1}}}
+       {$project:{_id:0,counter:1}}
+       )
   ```
 
 - $sort: 将输入的文档排序后输出;
 
+  ```js
+  //查询学生信息，按照年龄升序
+  db.stu.aggregate({$sort:{age:1}})
+  ```
+
 - $limit: 限制聚合管道返回的文档数;
 
 - $skip: 跳过指定数量的文档,返回余下的文档;
+
+  - 同时使用时先使用skip在使用limit ,效率更高
+
+    ```js
+    // 统计男女生人数，按照人数升序，返回第二条数据
+    db.stu.aggregate(
+         {$group:{_id:"$gender",counter:{$sum:1}}},
+         {$sort:{counter:-1}},
+         {$skip:1},
+         {$limit:1}
+     )
+    ```
 
 #### 常用表达式
 
@@ -215,3 +238,129 @@
        }
    )
   ```
+
+### Mongodb索引
+
+#### mongodb 的索引的作用
+
+-  加快查询速度
+- 进行数据的去重
+
+#### mongodb 的创建
+
+- db.clo.ensureIndex({属性:1})  , 1 表示升序,-1 表示降序
+- db.clo.createIndex({属性:1})
+
+#### 索引的查看
+
+db.col.getIndexes()  # 查看索引
+
+#### 创建唯一索引
+
+- db.clo.createIndex({属性:1},{"unique":true})  # 创建唯一索引
+
+#### 删除索引
+
+db.col.dropIndex({"索引名称":1})
+
+#### 建立复合索引
+
+- 在进行数据去重的时候，可能用一个字段来保证数据的唯一性，这个时候可以考虑建立复合索引来实现。
+- 建立复合索引:db.colensureIndex({字段1:1,字段2:1})
+- 根据需要选择是否建立唯一索引
+- 索引字段是升序还是降序在单个索引的情况下不影响查询速度,但是带复合索引的条件下会有影响
+
+### Mongodb的备份和恢复
+
+#### 备份
+
+备份的语法: mongodump -h dbhost -d dbname -o dbdirrectory       # 从数据库到本地
+
+- -h : 服务器地址,也可以指定端口号
+- -d : 需要备份的数据库名
+- -0 : 备份的数据存放位置,此目录中存放的备份出来的数据   实例 :mongodump -h 192.168.196.128:27017 -d test1 -o ~/Desktop/test1bak
+
+####  恢复
+
+恢复的语法: mongorestore -h dbhost -d dbname --dir dbdirectory    # 从本地到数据库
+
+- -h : 服务器的地址
+- -d : 需要恢复的数据库实例
+- --dir : 备份数据所在位置 实例:mongorestore -h 192.168.196.128:27017 -d test2 --dir ~/Desktop/test1bak/test1
+
+### Mongodb和Python的交互
+
+使用pymongo模块: pip install pymongo
+
+```python
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# @Time : 18-10-23  @Author:libo  @FileName: 01_try_pymongo.py
+
+from pymongo import MongoClient
+
+# db = MongoClient().test18
+# db.insert_many(i["name"]:)
+client = MongoClient()
+collections = client['test18']['t1']
+
+# -----------------------------------------
+# 插入一条数据
+# client = MongoClient(host="127.0.0.1",port=27017)
+#
+# collection = client['test17']['t1']
+# 创建一个db变量
+# 通过.来获取数据库,方便在终端执行
+# db = MongoClient().test17
+# # 使用db变量.集合名.方法来操作数据库
+# db.user.insert_many({"userbame": "zhangsan", "password": "zhansan123"})
+# ret = db.user# for i in ret:
+#     print(i)
+
+# -----------------------------------------
+# # 插入多条数据
+# # db = MongoClient().test18
+# # db.insert_many(i["name"]:)
+# client = MongoClient()
+# collections = client['test18']['t1']
+# # temp_list = [{"_id":i,"py_{}".format(i)} for i in range(100)]
+# temp_list = [{"name": "py{}".format(i)} for i in range(20)]
+# ret = collections.insert_many(temp_list)
+#
+# t = collections.find_one({"name":"py17"})
+# # # for r in ret:
+# # print(ret)
+# print(t)
+
+# -----------------------------------------
+
+# # 更新一条数据
+# ret = collections.update_one({"name":"py17"},{"$set":{"name":"py170"}})
+#
+# t = collections.find_one({"name":"py170"})
+# print(t)
+
+# -----------------------------------------
+# 更新多条数据
+# ret = collections.update_many({"name": "py170"}, {"$set": {"name": "pyy170"}})
+#
+# t = collections.find()
+# for ty in t:
+#     print(ty)
+
+
+# # 删除1条数据
+# ret = collections.delete_one({"name": "pyy170"})
+#
+# t = collections.find()
+# for ty in t:
+#     print(ty)
+
+# 删除多条数据
+ret = collections.delete_many({"name": "py0"})
+
+t = collections.find()
+for ty in t:
+    print(ty)
+```
+
