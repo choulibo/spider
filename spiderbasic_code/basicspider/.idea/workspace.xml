@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4e867c-2f81-4249-8059-86a43f66e870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day05/.idea/day05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06/01_try_selenium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06/02_try_PhantomJS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06/03_login_douban.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06/04_douyu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06/05_qq_mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06/06_login_douban.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06/07_netease_cloud_music.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06/yundama.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gsh.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/basicspider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basicspider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05/x.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/x.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spiderbasic笔记/day05.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../spiderbasic笔记/day05.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spiderbasic笔记/day07.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../spiderbasic笔记/day07.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,18 +13,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/basicspider$01_renren_login.coverage" NAME="01_renren_login Coverage Results" MODIFIED="1539776032222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
     <SUITE FILE_PATH="coverage/basicspider$04_try_json.coverage" NAME="04_try_json Coverage Results" MODIFIED="1539793155337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
     <SUITE FILE_PATH="coverage/basicspider$02_renren_login.coverage" NAME="02_renren_login Coverage Results" MODIFIED="1539782158251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+    <SUITE FILE_PATH="coverage/basicspider$03_login_douban.coverage" NAME="03_login_douban Coverage Results" MODIFIED="1540124242336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/basicspider$01_try_pymongo.coverage" NAME="01_try_pymongo Coverage Results" MODIFIED="1540341946553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
+    <SUITE FILE_PATH="coverage/basicspider$01_renren_login.coverage" NAME="01_renren_login Coverage Results" MODIFIED="1539776032222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+    <SUITE FILE_PATH="coverage/basicspider$02_try_pymongo.coverage" NAME="02_try_pymongo Coverage Results" MODIFIED="1540303526882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/basicspider$02_try_PhantomJS.coverage" NAME="02_try_PhantomJS Coverage Results" MODIFIED="1540123502037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/basicspider$04_douyu.coverage" NAME="04_douyu Coverage Results" MODIFIED="1540142010830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/basicspider$06_login_douban.coverage" NAME="06_login_douban Coverage Results" MODIFIED="1540123474737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
-    <SUITE FILE_PATH="coverage/basicspider$03_login_douban.coverage" NAME="03_login_douban Coverage Results" MODIFIED="1540124242336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/basicspider$03_try_12306.coverage" NAME="03_try_12306 Coverage Results" MODIFIED="1539783144124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
     <SUITE FILE_PATH="coverage/basicspider$07_netease_cloud_music.coverage" NAME="07_netease_cloud_music Coverage Results" MODIFIED="1540176050694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/basicspider$01_try_selenium.coverage" NAME="01_try_selenium Coverage Results" MODIFIED="1540090909715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/basicspider$05_qq_mail.coverage" NAME="05_qq_mail Coverage Results" MODIFIED="1540168818807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/basicspider$05_baidufanyi.coverage" NAME="05_baidufanyi Coverage Results" MODIFIED="1539793402953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="571724801">
@@ -81,10 +82,12 @@
     <session id="-1938241537">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.32" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,7 +95,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="1" />
           <entry key="png" value="5" />
-          <entry key="py" value="50" />
+          <entry key="py" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -100,17 +103,19 @@
           <entry key="Image" value="5" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="50" />
+          <entry key="Python" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2865" />
+          <entry key="py" value="3994" />
+          <entry key="txt" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2865" />
+          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="Python" value="3994" />
         </counts>
       </usages-collector>
     </session>
@@ -150,7 +155,6 @@
         <option value="$PROJECT_DIR$/day06/yundama.py" />
         <option value="$PROJECT_DIR$/day05/x.py" />
         <option value="$PROJECT_DIR$/day05/05_qiubai_multiprocessing.py" />
-        <option value="$PROJECT_DIR$/gsh.py" />
         <option value="$PROJECT_DIR$/day06/02_try_PhantomJS.py" />
         <option value="$PROJECT_DIR$/day06/01_try_selenium.py" />
         <option value="$PROJECT_DIR$/day06/04_douyu.py" />
@@ -158,6 +162,9 @@
         <option value="$PROJECT_DIR$/day06/05_qq_mail.py" />
         <option value="$PROJECT_DIR$/day06/06_login_douban.py" />
         <option value="$PROJECT_DIR$/day06/07_netease_cloud_music.py" />
+        <option value="$PROJECT_DIR$/gsh.py" />
+        <option value="$PROJECT_DIR$/day07/01_try_pymongo.py" />
+        <option value="$PROJECT_DIR$/day07/02_try_pymongo.py" />
       </list>
     </option>
   </component>
@@ -173,9 +180,9 @@
     </layout>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
-    <option name="y" value="21" />
-    <option name="width" value="744" />
+    <option name="x" value="567" />
+    <option name="y" value="24" />
+    <option name="width" value="794" />
     <option name="height" value="747" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -198,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,18 +217,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/myspider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day07" />
       <recent name="$PROJECT_DIR$/day03" />
     </key>
   </component>
@@ -236,8 +244,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.07_netease_cloud_music">
-    <configuration name="02_try_PhantomJS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.01_try_pymongo">
+    <configuration name="01_try_pymongo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicspider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,12 +253,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/02_try_PhantomJS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day07/01_try_pymongo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,7 +267,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_login_douban" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02_try_pymongo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicspider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -267,12 +275,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/03_login_douban.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day07/02_try_pymongo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -348,19 +356,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.02_try_PhantomJS" />
-      <item itemvalue="Python.03_login_douban" />
       <item itemvalue="Python.04_douyu" />
       <item itemvalue="Python.05_qq_mail" />
       <item itemvalue="Python.07_netease_cloud_music" />
+      <item itemvalue="Python.01_try_pymongo" />
+      <item itemvalue="Python.02_try_pymongo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_try_pymongo" />
+        <item itemvalue="Python.02_try_pymongo" />
         <item itemvalue="Python.07_netease_cloud_music" />
         <item itemvalue="Python.05_qq_mail" />
         <item itemvalue="Python.04_douyu" />
-        <item itemvalue="Python.03_login_douban" />
-        <item itemvalue="Python.02_try_PhantomJS" />
       </list>
     </recent_temporary>
   </component>
@@ -375,33 +383,57 @@
       <option name="presentableId" value="Default" />
       <updated>1539770384469</updated>
     </task>
+    <task id="LOCAL-00001" summary="用selenium爬取动态网页模拟浏览器稍登录的用法实例及笔记更新">
+      <created>1540191255094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540191255094</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mongodb非关系型数据库">
+      <created>1540303592735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540303592736</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="21" width="744" height="747" extended-state="0" />
+    <frame x="567" y="24" width="794" height="747" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33618233" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3337766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5968254" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7079365" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32857144" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Redis Servers" order="4" weight="0.32946146" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32994923" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.33863965" />
@@ -433,6 +465,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="用selenium爬取动态网页模拟浏览器稍登录的用法实例及笔记更新" />
+    <MESSAGE value="mongodb非关系型数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongodb非关系型数据库" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/day03.py" />
@@ -532,9 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1802">
           <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
-          <folding>
-            <element signature="e#99#114#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -561,9 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-528">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,16 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#101#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gsh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -643,9 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-          <folding>
-            <element signature="e#108#119#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,9 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding>
-            <element signature="e#123#134#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -670,12 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding>
-            <element signature="e#100#111#0" expanded="true" />
-            <marker date="1540142000934" expanded="true" signature="159:163" ph="..." />
-            <marker date="1540142000934" expanded="true" signature="1239:1384" ph="..." />
-            <marker date="1540142000934" expanded="true" signature="1398:1407" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,9 +692,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#114#129#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gsh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/02_try_pymongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/01_try_pymongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
         </state>
       </provider>
     </entry>
